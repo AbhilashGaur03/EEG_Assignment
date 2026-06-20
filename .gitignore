@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+results/*.csv
+results/*.json
+results/*.txt
+results/figures/*.png
+*.pt
+*.pth
+mne_data/
