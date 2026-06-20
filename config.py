@@ -49,8 +49,8 @@ USE_MAX_NORM = True
 
 # Representative settings for plots/write-up; these are predeclared rather than
 # selected from test accuracy, so the visualizations do not become cherry-picked.
-MAIN_CCSA_BETA = 0.8
-MAIN_APMRG_LAMBDA = 0.1
+MAIN_CCSA_BETA = 1
+MAIN_APMRG_LAMBDA = 0.8
 
 # AP-MRG frequency bands
 MRG_BANDS = [
