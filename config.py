@@ -31,8 +31,11 @@ RUNS = [6, 10, 14]
 
 # Hyperparameter sweeps are centralized here so `python main.py` runs the full
 # protocol without editing notebooks or scripts.
-CCSA_BETAS = [0.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2, 3.0, 5, 7, 9, 10.0]
-APMRG_LAMBDAS = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+# Uncomment CCSA_BETAS and APMRG_LAMBDAS for ablation
+CCSA_BETAS = 1
+# CCSA_BETAS = [0.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2, 3.0, 5, 7, 9, 10.0] for ablation
+APMRG_LAMBDAS = 0.8
+# APMRG_LAMBDAS = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
 # EEG preprocessing
 LOW_FREQ = 4.0
